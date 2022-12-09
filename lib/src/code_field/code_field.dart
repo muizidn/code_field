@@ -279,6 +279,7 @@ class _CodeFieldState extends State<CodeField> {
     }
 
     final codeField = TextField(
+      toolbarOptions: ToolbarOptions(),
       keyboardType: widget.keyboardType,
       smartQuotesType: widget.smartQuotesType,
       focusNode: _focusNode,
